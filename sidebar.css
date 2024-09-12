@@ -1,0 +1,30 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 61px;
+    background-color: white;
+    color: black;
+    width: 80px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 200, 200);
+    /*border-top-style: solid;*/
+    z-index: 1;
+
+}
+.sidebar-comp{
+    height: 104px;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(200, 200, 200);
+}
+.sidebar-comp:hover{
+    background-color: rgb(200, 200, 200);
+}
+.sidebar-comp img{
+    height: 50px;
+    margin-top: 20px;
+}
